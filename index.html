@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind Projet</title>
     <link rel="stylesheet" href="/dist/style.css" />
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <nav class="p-5 md:flex md:items-center md:justify-between">
@@ -14,73 +20,240 @@
         <span class="cursor-pointer">
           <img src="/img/mon_logo.png" class="md:h-32 h-16" alt="mon_logo" />
         </span>
-        <span class="text-2xl md:hidden"><ion-icon name="menu-outline" onclick="sidebar(this)"></ion-icon> </span>
+        <span class="text-2xl md:hidden"
+          ><ion-icon name="menu-outline" onclick="sidebar(this)"></ion-icon>
+        </span>
       </div>
-      <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full 
-      left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] 
-      transition-all ease-out duration-700">
+      <ul
+        class="md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-out duration-700"
+      >
         <li class="mx-4 my-5 md:my-0">
-          <a
-            href=""
-            class="text-xl hover:text-green-400 duration-100"
+          <a href="" class="text-xl hover:text-green-400 duration-100"
             >Acceuil</a
           >
         </li>
         <li class="mx-4 my-5 md:my-0">
-          <a
-            href=""
-            class="text-xl hover:text-green-400 duration-100"
+          <a href="" class="text-xl hover:text-green-400 duration-100"
             >Services</a
           >
         </li>
         <li class="mx-4 my-5 md:my-0">
-          <a
-            href=""
-            class="text-xl hover:text-green-400 duration-100"
-            >Blog</a
-          >
+          <a href="" class="text-xl hover:text-green-400 duration-100">Blog</a>
         </li>
         <li class="mx-4 my-5 md:my-0">
-          <a
-            href=""
-            class="text-xl hover:text-green-400 duration-100"
+          <a href="" class="text-xl hover:text-green-400 duration-100"
             >Galerie</a
           >
         </li>
         <li class="mx-4 my-5 md:my-0">
-          <a
-            href=""
-            class="text-xl hover:text-green-400 duration-100"
+          <a href="" class="text-xl hover:text-green-400 duration-100"
             >A propos</a
           >
         </li>
         <li class="mx-4 my-5 md:my-0">
-          <a
-            href=""
-            class="text-xl hover:text-green-400 duration-100"
+          <a href="" class="text-xl hover:text-green-400 duration-100"
             >Connection</a
           >
         </li>
-        <button class="bg-green-400 duration-500 px-5 py-2 rounded-lg">Prêt</button>
+        <button class="bg-green-400 duration-500 px-5 py-2 rounded-lg">
+          Prêt
+        </button>
       </ul>
     </nav>
-    <section style="background-image: url(img/universe-1566159_1280.jpg)">
-        <ul class="container flex p-5 text-white font-bold">
-            <li>Acceuil</li>
-            <li class="pl-5">Web Design</li>
-        </ul>
+
+    <section
+      style="background-image: url(img/universe-1566159_1280.jpg)"
+      class="bg-cover"
+    >
+      <ul class="container flex p-5 text-white font-bold">
+        <li>Acceuil</li>
+        <li class="pl-5">Web Design</li>
+      </ul>
+      <h1 class="text-6xl text-white font-bold text-center">
+        World's #1 website design
+      </h1>
+      <ul class="lg:flex flex-wrap justify-center">
+        <li class="text-lg font-bold text-white p-10">
+          <ion-icon
+            name="checkmark-done-outline"
+            class="text-yellow-300"
+          ></ion-icon
+          >Get 70+ design whithin 7 days
+        </li>
+        <li class="text-lg font-bold text-white p-10">
+          <ion-icon
+            name="checkmark-done-outline"
+            class="text-yellow-300"
+          ></ion-icon
+          >24/7 customer support
+        </li>
+        <li class="text-lg font-bold text-white p-10">
+          <ion-icon
+            name="checkmark-done-outline"
+            class="text-yellow-300"
+          ></ion-icon
+          >Get 70+ design whithin 7 days
+        </li>
+        <li class="text-lg font-bold text-white p-10">
+          <ion-icon
+            name="checkmark-done-outline"
+            class="text-yellow-300"
+          ></ion-icon
+          >Get 70+ design whithin 7 days
+        </li>
+      </ul>
+      <h1 class="text-6xl text-white font-bold text-center">
+        Whats are you looking for
+      </h1>
+      <div class="text-center my-10">
+        <button
+          class="bg-cyan-400 text-white font-bold px-6 py-3 duration-500 rounded-full hover:bg-cyan-500"
+        >
+          Get started now
+        </button>
+        <button
+          class="bg-green-400 text-blue-800 font-bold px-6 py-3 duration-500 rounded-full hover:bg-green-500"
+        >
+          HOW ITS WORKS
+        </button>
+      </div>
+      <ul class="flex justify-center">
+        <li>
+          <ion-icon name="star" class="text-yellow-400 text-2xl p-2"></ion-icon>
+        </li>
+        <li>
+          <ion-icon name="star" class="text-yellow-400 text-2xl p-2"></ion-icon>
+        </li>
+        <li>
+          <ion-icon name="star" class="text-yellow-400 text-2xl p-2"></ion-icon>
+        </li>
+        <li>
+          <ion-icon name="star" class="text-yellow-400 text-2xl p-2"></ion-icon>
+        </li>
+        <li>
+          <ion-icon
+            name="star-half"
+            class="text-yellow-400 text-2xl p-2"
+          ></ion-icon>
+        </li>
+      </ul>
+      <div>
+        <p class="flex justify-center text-white">
+          Check out our &nbsp;<a href="" class="text-yellow-500"
+            >previews (4.95/5 average from 85491 ratings)</a
+          >
+        </p>
+        <p class="flex justify-center text-white mt-5 pb-12">
+          2969 reviews
+          <ion-icon name="star" class="text-yellow-400"></ion-icon>tool up
+        </p>
+      </div>
+    </section>
+    <section>
+      <h1 class="text-center mt-32 text-4xl font-bold">
+        HOW TO WEBSITE DESIGN CONTEST WORKS
+      </h1>
+      <div>
+        <div class="flex flex-wrap">
+          <div class="lg:w-1/3 p-4">
+            <div class="text-center pt-16 pb-16">
+              <button
+                class="rounded-full mb-6 px-2 focus:outline-none text-center border-2 border-gray-800"
+              >
+                1
+              </button>
+              <img src="/img/finance-2837085_1280.png" alt="" srcset="" />
+              <h1 class="sm:text-lg text-gray-900 font-semibold">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                voluptas?
+              </h1>
+              <p class="mb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat unde sunt nesciunt vero corporis modi dignissimos cum,
+                in accusamus odit velit nam ab nihil eaque fugit quasi totam
+                veritatis esse sapiente, at, incidunt magnam? Quaerat cupiditate
+                sint quod ab iste. Quae aliquid eum sit ipsa modi sequi qui
+                quidem natus.
+              </p>
+              <a href="" class="text-indigo-500 inline flex-items-center">Learn more</a>
+            </div>
+          </div>
+          <div class="lg:w-1/3 p-4">
+            <div class="text-center pt-16 pb-16">
+              <button
+                class="rounded-full mb-6 px-2 focus:outline-none text-center border-2 border-gray-800"
+              >
+                1
+              </button>
+              <img src="/img/fax-1889009_1280.jpg" alt="" srcset="" />
+              <h1 class="sm:text-lg text-gray-900 font-semibold">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                voluptas?
+              </h1>
+              <p class="mb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat unde sunt nesciunt vero corporis modi dignissimos cum,
+                in accusamus odit velit nam ab nihil eaque fugit quasi totam
+                veritatis esse sapiente, at, incidunt magnam? Quaerat cupiditate
+                sint quod ab iste. Quae aliquid eum sit ipsa modi sequi qui
+                quidem natus.
+              </p>
+              <a href="" class="text-indigo-500 inline flex-items-center">Learn more</a>
+            </div>
+          </div>
+          <div class="lg:w-1/3 p-4">
+            <div class="text-center pt-16 pb-16">
+              <button
+                class="rounded-full mb-6 px-2 focus:outline-none text-center border-2 border-gray-800"
+              >
+                1
+              </button>
+              <img src="/img/man-4550599_1280.jpg" alt="" srcset="" />
+              <h1 class="sm:text-lg text-gray-900 font-semibold">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste,
+                voluptas?
+              </h1>
+              <p class="mb-3">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Placeat unde sunt nesciunt vero corporis modi dignissimos cum,
+                in accusamus odit velit nam ab nihil eaque fugit quasi totam
+                veritatis esse sapiente, at, incidunt magnam? Quaerat cupiditate
+                sint quod ab iste. Quae aliquid eum sit ipsa modi sequi qui
+                quidem natus.
+              </p>
+              <a href="" class="text-indigo-500 inline flex-items-center">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div>
+          <img src="/img/unknown-913586_1280.jpg" alt="" class="lg:1/2 w-full lg:w-auto">
+          <div>
+            <h1 class="text-gray-500 text-3xl mb-1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, fugit.</h1>
+            <p class="text-gray-500 text-justify mb-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae obcaecati architecto dolores facere incidunt magni error temporibus quisquam sit 
+              ipsum quasi sapiente ut, neque quod inventore quas consequatur nobis, ipsa consequuntur, enim cumque? Facere quia ab labore magnam, 
+              eaque qui vero laboriosam natus illum, tempora, non odio? Quaerat error ullam pariatur ex, dignissimos tempore nisi provident vero. 
+              Perferendis esse reiciendis ipsa quidem natus similique dignissimos, in nisi libero accusantium, ullam, nulla officia excepturi! Sit 
+              molestias doloremque vitae repudiandae porro? Doloremque quos, ea laboriosam architecto illo tenetur incidunt tempora ad in consequatur 
+              iusto sapiente alias earum molestiae obcaecati inventore, odit quia!</p>
+          </div>
+        </div>
+      </div>
     </section>
     <script>
-        function sidebar(e) {
-            let list = document.querySelector("ul");
-            e.name === "menu"
-            ? ((e.name = "close"),
+      function sidebar(e) {
+        let list = document.querySelector("ul");
+        e.name === "menu"
+          ? ((e.name = "close"),
             list.classList.add("top-[80px]"),
             list.classList.add("opacity-100"))
-            :((e.name = "menu"),
+          : ((e.name = "menu"),
             list.classList.remove("top-[80px]"),
             list.classList.remove("opacity-100"));
-        }
+      }
     </script>
   </body>
 </html>
